@@ -15,6 +15,14 @@
     "lib": [
       "es2017",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ng-dynamic-table": [
+        "dist/ng-dynamic-table"
+      ],
+      "ng-dynamic-table/*": [
+        "dist/ng-dynamic-table/*"
+      ]
+    }
   }
 }
