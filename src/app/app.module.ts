@@ -3,12 +3,15 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
+import { NgDynamicTableModule } from 'ng-dynamic-table';
+
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    NgDynamicTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]

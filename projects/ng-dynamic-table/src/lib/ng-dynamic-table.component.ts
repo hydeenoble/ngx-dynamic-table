@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'lib-ng-dynamic-table',
@@ -11,6 +11,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NgDynamicTableComponent implements OnInit {
 
+  // @Output()
+  // config
   constructor() { }
 
   ngOnInit() {
