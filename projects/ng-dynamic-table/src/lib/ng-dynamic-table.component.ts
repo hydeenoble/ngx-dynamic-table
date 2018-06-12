@@ -1,18 +1,15 @@
-import { Component, OnInit, Output } from '@angular/core';
+import { Component, OnInit, Output , Input } from '@angular/core';
+import { NgDynamicTableConfig } from './../lib/interfaces/ng-dynamic-table-config';
 
 @Component({
   selector: 'lib-ng-dynamic-table',
-  template: `
-    <p>
-      ng-dynamic-table works!
-    </p>
-  `,
+  templateUrl: './ng-dynamic-table.component.html',
   styles: []
 })
 export class NgDynamicTableComponent implements OnInit {
 
-  // @Output()
-  // config
+  @Input()
+  config: NgDynamicTableConfig;
   constructor() { }
 
   ngOnInit() {
