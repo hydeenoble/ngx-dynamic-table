@@ -4,7 +4,7 @@ import { NgDynamicTableConfig } from './../lib/interfaces/ng-dynamic-table-confi
 @Component({
   selector: 'lib-ng-dynamic-table',
   templateUrl: './ng-dynamic-table.component.html',
-  styles: []
+  styleUrls: ['./ng-dynamic-table.component.scss']
 })
 export class NgDynamicTableComponent implements OnInit {
 
@@ -12,7 +12,6 @@ export class NgDynamicTableComponent implements OnInit {
   config: NgDynamicTableConfig;
   constructor() { }
 
-  ngOnInit() {
-  }
+  ngOnInit() {}
 
 }
