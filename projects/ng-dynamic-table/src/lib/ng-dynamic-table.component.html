@@ -2,9 +2,12 @@
     <h3 class="title__name">
         {{ config.tableName }}
     </h3>
-    <div class="title__btn-group">
-        <span>&lt;</span>
-        <span>&gt;</span>
+    <div class="paginate">
+        1-10 of {{ config.tableData.length }}
+    </div>
+    <div class="btn-group">
+        <span title="newer">&lt;</span>
+        <span title="lower">&gt;</span>
     </div>
 </div>
 
