@@ -1,53 +1,24 @@
 <div class="title">
-    <h3 class="title__name">Dynamic table</h3>
-    <div class="title__btns">
-        buttons
+    <h3 class="title__name">
+        {{ config.tableName }}
+    </h3>
+    <div class="title__btn-group">
+        <span>&lt;</span>
+        <span>&gt;</span>
     </div>
 </div>
 
 <div class="table">
     <div class="table__row table__head">
-      <div class="table__data">
-        Name
-      </div>
-      <div class="table__data">
-        Items Bought
-      </div>
-      <div class="table__data">
-        Clicked
-      </div>
-      <div class="table__data">
-        Duration
-      </div>
-      <div class="table__data">
-        Lifetime Total
-      </div>
-      <div class="table__data">
-        Total
+      <div class="table__data" *ngFor="let header of config.tableHeaders">
+        {{ header | uppercase }}
       </div>
     </div>
-    <div class="table__row">
-      <div class="table__data">
+    <div class="table__row" *ngFor="let data of config.tableData">
+      <div class="table__data" *ngFor="let header of config.tableHeaders">
         <span>
-            <!-- <a href="javascript:void(0)"> -->
-                Andrew Jackman
-            <!-- </a> -->
+            {{ data[header] }}
         </span>
-      </div>
-      <div class="table__data">
-        <span>41</span>
-      </div>
-      <div class="table__data">
-        <span>30</span>
-      </div>
-      <div class="table__data">
-        <span>27</span>
-      </div>
-      <div class="table__data">
-        <span>$176.15</span>
-      </div>
-      <div class="table__data">
-        <span>$14.94</span>
       </div>
     </div>
   </div>

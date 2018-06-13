@@ -1,6 +1,5 @@
 export interface NgDynamicTableConfig {
     tableName: string;
-    tableHead: Array<any>;
+    tableHeaders: Array<any>;
     tableData: Array<any>;
-    total: number;
 }
