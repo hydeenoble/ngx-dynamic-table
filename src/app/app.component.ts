@@ -10,8 +10,189 @@ export class AppComponent {
 
   config = {
     tableName: 'Customer Table',
+    tableOffset: 5,
     tableHeaders: ['name', 'phone', 'country', 'zip code', 'state', 'customer', 'order number'],
     tableData: [
+      {
+        name: 'Idowu Emehinola',
+        phone: '+2348161691968',
+        country: 'Nigeria',
+        'zip code': 100222,
+        state: 'Lagos',
+        customer: 12233,
+        'order number': 1234442223343
+      },
+      {
+        name: 'Adeyinka Micheal',
+        phone: '+2348161691968',
+        country: 'Jamiaca',
+        'zip code': 112221,
+        state: 'Kwaba',
+        customer: 122332,
+        'order number': 'fbjksfhskjfshkfjsfh'
+      },
+      {
+        name: 'Idowu Emehinola',
+        phone: '+2348161691968',
+        country: 'Nigeria',
+        'zip code': 100222,
+        state: 'Lagos',
+        customer: 12233,
+        'order number': 1234442223343
+      },
+      {
+        name: 'Adeyinka Micheal',
+        phone: '+2348161691968',
+        country: 'Jamiaca',
+        'zip code': 112221,
+        state: 'Kwaba',
+        customer: 122332,
+        'order number': 'fbjksfhskjfshkfjsfh'
+      },
+      {
+        name: 'Idowu Emehinola',
+        phone: '+2348161691968',
+        country: 'Nigeria',
+        'zip code': 100222,
+        state: 'Lagos',
+        customer: 12233,
+        'order number': 1234442223343
+      },
+      {
+        name: 'Adeyinka Micheal',
+        phone: '+2348161691968',
+        country: 'Jamiaca',
+        'zip code': 112221,
+        state: 'Kwaba',
+        customer: 122332,
+        'order number': 'fbjksfhskjfshkfjsfh'
+      },
+      {
+        name: 'Idowu Emehinola',
+        phone: '+2348161691968',
+        country: 'Nigeria',
+        'zip code': 100222,
+        state: 'Lagos',
+        customer: 12233,
+        'order number': 1234442223343
+      },
+      {
+        name: 'Adeyinka Micheal',
+        phone: '+2348161691968',
+        country: 'Jamiaca',
+        'zip code': 112221,
+        state: 'Kwaba',
+        customer: 122332,
+        'order number': 'fbjksfhskjfshkfjsfh'
+      },
+      {
+        name: 'Idowu Emehinola',
+        phone: '+2348161691968',
+        country: 'Nigeria',
+        'zip code': 100222,
+        state: 'Lagos',
+        customer: 12233,
+        'order number': 1234442223343
+      },
+      {
+        name: 'Adeyinka Micheal',
+        phone: '+2348161691968',
+        country: 'Jamiaca',
+        'zip code': 112221,
+        state: 'Kwaba',
+        customer: 122332,
+        'order number': 'fbjksfhskjfshkfjsfh'
+      },
+      {
+        name: 'Idowu Emehinola',
+        phone: '+2348161691968',
+        country: 'Nigeria',
+        'zip code': 100222,
+        state: 'Lagos',
+        customer: 12233,
+        'order number': 1234442223343
+      },
+      {
+        name: 'Adeyinka Micheal',
+        phone: '+2348161691968',
+        country: 'Jamiaca',
+        'zip code': 112221,
+        state: 'Kwaba',
+        customer: 122332,
+        'order number': 'fbjksfhskjfshkfjsfh'
+      },
+      {
+        name: 'Idowu Emehinola',
+        phone: '+2348161691968',
+        country: 'Nigeria',
+        'zip code': 100222,
+        state: 'Lagos',
+        customer: 12233,
+        'order number': 1234442223343
+      },
+      {
+        name: 'Adeyinka Micheal',
+        phone: '+2348161691968',
+        country: 'Jamiaca',
+        'zip code': 112221,
+        state: 'Kwaba',
+        customer: 122332,
+        'order number': 'fbjksfhskjfshkfjsfh'
+      },
+      {
+        name: 'Idowu Emehinola',
+        phone: '+2348161691968',
+        country: 'Nigeria',
+        'zip code': 100222,
+        state: 'Lagos',
+        customer: 12233,
+        'order number': 1234442223343
+      },
+      {
+        name: 'Adeyinka Micheal',
+        phone: '+2348161691968',
+        country: 'Jamiaca',
+        'zip code': 112221,
+        state: 'Kwaba',
+        customer: 122332,
+        'order number': 'fbjksfhskjfshkfjsfh'
+      },
+      {
+        name: 'Idowu Emehinola',
+        phone: '+2348161691968',
+        country: 'Nigeria',
+        'zip code': 100222,
+        state: 'Lagos',
+        customer: 12233,
+        'order number': 1234442223343
+      },
+      {
+        name: 'Adeyinka Micheal',
+        phone: '+2348161691968',
+        country: 'Jamiaca',
+        'zip code': 112221,
+        state: 'Kwaba',
+        customer: 122332,
+        'order number': 'fbjksfhskjfshkfjsfh'
+      },
+      {
+        name: 'Idowu Emehinola',
+        phone: '+2348161691968',
+        country: 'Nigeria',
+        'zip code': 100222,
+        state: 'Lagos',
+        customer: 12233,
+        'order number': 1234442223343
+      },
+      {
+        name: 'Adeyinka Micheal',
+        phone: '+2348161691968',
+        country: 'Jamiaca',
+        'zip code': 112221,
+        state: 'Kwaba',
+        customer: 122332,
+        'order number': 'fbjksfhskjfshkfjsfh'
+      },
       {
         name: 'Idowu Emehinola',
         phone: '+2348161691968',

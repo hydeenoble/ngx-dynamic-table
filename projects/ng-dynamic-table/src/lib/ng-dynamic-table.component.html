@@ -3,11 +3,11 @@
         {{ config.tableName }}
     </h3>
     <div class="paginate">
-        1-10 of {{ config.tableData.length }}
+        {{from}}-{{ to }} of {{ total }}
     </div>
     <div class="btn-group">
-        <span title="newer">&lt;</span>
-        <span title="lower">&gt;</span>
+        <button (click)="prev()" title="newer" [disabled]="disablePrev">&lt;</button>
+        <button (click)="next()" title="older" [disabled]="disableNext">&gt;</button>
     </div>
 </div>
 
