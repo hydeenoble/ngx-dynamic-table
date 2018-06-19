@@ -1,6 +1,7 @@
 import { Component, OnInit, Output , Input } from '@angular/core';
 import { NgDynamicTableConfig } from './../lib/interfaces/ng-dynamic-table-config';
 import { toUnicode } from 'punycode';
+import { THIS_EXPR } from '@angular/compiler/src/output/output_ast';
 
 @Component({
   selector: 'lib-ng-dynamic-table',
@@ -17,6 +18,7 @@ export class NgDynamicTableComponent implements OnInit {
   offset: number;
   disablePrev: boolean;
   disableNext: boolean;
+  tableData: Array<any>;
 
   constructor() {
   }
@@ -27,36 +29,41 @@ export class NgDynamicTableComponent implements OnInit {
     this.from = 1;
     this.to = this.offset = this.config.tableOffset;
     this.total = this.config.tableData.length;
+    // console.log();
+    this.tableData = this.paginatedData();
   }
   next() {
     this.from += this.offset;
     this.to += this.offset;
 
-    if ((this.to + this.offset) >= this.total) {
-      console.log('from', this.to);
+    this.disableStatus();
+    this.tableData = this.paginatedData();
+  }
+
+  prev() {
+    this.from -= this.offset;
+    this.to -= this.offset;
+    this.disableStatus();
+    this.tableData = this.paginatedData();
+  }
+
+  disableStatus() {
+    if ((this.from - 1) <= 1) {
+      this.disablePrev = true;
+    } else {
+      this.disablePrev = false;
+    }
+
+    if ((this.to + 1) >= this.total) {
       this.disableNext = true;
     } else {
       this.disableNext = false;
     }
   }
 
-  prev() {
-    this.from -= this.offset;
-    this.to -= this.offset;
-
-    if ((this.from - 1) <= 1) {
-      console.log('from', this.from);
-      this.disablePrev = true;
-    } else {
-      this.disablePrev = false;
-    }
-  }
-
-  checkNext() {
-    return this.to >= this.total;
-  }
-
-  checkPrev() {
-    return this.from >= 1;
+  paginatedData() {
+    console.log(this.from, this.to);
+    const data = this.config.tableData;
+    return data.slice(this.from - 1, this.to);
   }
 }

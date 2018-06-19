@@ -17,7 +17,7 @@
         {{ header | uppercase }}
       </div>
     </div>
-    <div class="table__row" *ngFor="let data of config.tableData">
+    <div class="table__row" *ngFor="let data of tableData">
       <div class="table__data" *ngFor="let header of config.tableHeaders">
         <span>
             {{ data[header] }}
