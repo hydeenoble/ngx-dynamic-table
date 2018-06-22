@@ -17,11 +17,11 @@
       "dom"
     ],
     "paths": {
-      "ng-dynamic-table": [
-        "dist/ng-dynamic-table"
+      "ngx-dynamic-table": [
+        "dist/ngx-dynamic-table"
       ],
-      "ng-dynamic-table/*": [
-        "dist/ng-dynamic-table/*"
+      "ngx-dynamic-table/*": [
+        "dist/ngx-dynamic-table/*"
       ]
     }
   }

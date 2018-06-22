@@ -1,6 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NgDynamicTableComponent } from './ng-dynamic-table.component';
+import { NgDynamicTableComponent } from './ngx-dynamic-table.component';
 
 describe('NgDynamicTableComponent', () => {
   let component: NgDynamicTableComponent;

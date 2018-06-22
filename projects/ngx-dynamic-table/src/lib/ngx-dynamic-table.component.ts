@@ -1,12 +1,12 @@
 import { Component, OnInit, Output , Input } from '@angular/core';
-import { NgDynamicTableConfig } from './../lib/interfaces/ng-dynamic-table-config';
+import { NgDynamicTableConfig } from '../lib/interfaces/ngx-dynamic-table-config';
 import { toUnicode } from 'punycode';
 import { THIS_EXPR } from '@angular/compiler/src/output/output_ast';
 
 @Component({
-  selector: 'lib-ng-dynamic-table',
-  templateUrl: './ng-dynamic-table.component.html',
-  styleUrls: ['./ng-dynamic-table.component.scss']
+  selector: 'ngx-dynamic-table',
+  templateUrl: './ngx-dynamic-table.component.html',
+  styleUrls: ['./ngx-dynamic-table.component.scss']
 })
 export class NgDynamicTableComponent implements OnInit {
 

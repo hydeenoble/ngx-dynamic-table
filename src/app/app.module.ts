@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
-import { NgDynamicTableModule } from 'ng-dynamic-table';
+import { NgDynamicTableModule } from 'ngx-dynamic-table';
 
 @NgModule({
   declarations: [

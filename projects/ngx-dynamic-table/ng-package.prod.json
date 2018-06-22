@@ -1,7 +1,6 @@
 {
   "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
-  "dest": "../../dist/ng-dynamic-table",
-  "deleteDestPath": false,
+  "dest": "../../dist/ngx-dynamic-table",
   "lib": {
     "entryFile": "src/public_api.ts"
   }

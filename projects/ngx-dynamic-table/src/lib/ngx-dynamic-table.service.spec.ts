@@ -1,6 +1,6 @@
 import { TestBed, inject } from '@angular/core/testing';
 
-import { NgDynamicTableService } from './ng-dynamic-table.service';
+import { NgDynamicTableService } from './ngx-dynamic-table.service';
 
 describe('NgDynamicTableService', () => {
   beforeEach(() => {

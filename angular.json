@@ -117,38 +117,38 @@
         }
       }
     },
-    "ng-dynamic-table": {
-      "root": "projects/ng-dynamic-table",
-      "sourceRoot": "projects/ng-dynamic-table/src",
+    "ngx-dynamic-table": {
+      "root": "projects/ngx-dynamic-table",
+      "sourceRoot": "projects/ngx-dynamic-table/src",
       "projectType": "library",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
           "options": {
-            "tsConfig": "projects/ng-dynamic-table/tsconfig.lib.json",
-            "project": "projects/ng-dynamic-table/ng-package.json"
+            "tsConfig": "projects/ngx-dynamic-table/tsconfig.lib.json",
+            "project": "projects/ngx-dynamic-table/ng-package.json"
           },
           "configurations": {
             "production": {
-              "project": "projects/ng-dynamic-table/ng-package.prod.json"
+              "project": "projects/ngx-dynamic-table/ng-package.prod.json"
             }
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/ng-dynamic-table/src/test.ts",
-            "tsConfig": "projects/ng-dynamic-table/tsconfig.spec.json",
-            "karmaConfig": "projects/ng-dynamic-table/karma.conf.js"
+            "main": "projects/ngx-dynamic-table/src/test.ts",
+            "tsConfig": "projects/ngx-dynamic-table/tsconfig.spec.json",
+            "karmaConfig": "projects/ngx-dynamic-table/karma.conf.js"
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "projects/ng-dynamic-table/tsconfig.lib.json",
-              "projects/ng-dynamic-table/tsconfig.spec.json"
+              "projects/ngx-dynamic-table/tsconfig.lib.json",
+              "projects/ngx-dynamic-table/tsconfig.spec.json"
             ],
             "exclude": [
               "**/node_modules/**"
