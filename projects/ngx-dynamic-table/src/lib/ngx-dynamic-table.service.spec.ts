@@ -1,15 +1,15 @@
 import { TestBed, inject } from '@angular/core/testing';
 
-import { NgDynamicTableService } from './ngx-dynamic-table.service';
+import { NgxDynamicTableService } from './ngx-dynamic-table.service';
 
-describe('NgDynamicTableService', () => {
+describe('NgxDynamicTableService', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
-      providers: [NgDynamicTableService]
+      providers: [NgxDynamicTableService]
     });
   });
 
-  it('should be created', inject([NgDynamicTableService], (service: NgDynamicTableService) => {
+  it('should be created', inject([NgxDynamicTableService], (service: NgxDynamicTableService) => {
     expect(service).toBeTruthy();
   }));
 });

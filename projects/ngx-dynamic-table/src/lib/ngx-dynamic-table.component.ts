@@ -1,5 +1,5 @@
 import { Component, OnInit, Output , Input } from '@angular/core';
-import { NgDynamicTableConfig } from '../lib/interfaces/ngx-dynamic-table-config';
+import { NgxDynamicTableConfig } from '../lib/interfaces/ngx-dynamic-table-config';
 import { toUnicode } from 'punycode';
 import { THIS_EXPR } from '@angular/compiler/src/output/output_ast';
 
@@ -8,10 +8,10 @@ import { THIS_EXPR } from '@angular/compiler/src/output/output_ast';
   templateUrl: './ngx-dynamic-table.component.html',
   styleUrls: ['./ngx-dynamic-table.component.scss']
 })
-export class NgDynamicTableComponent implements OnInit {
+export class NgxDynamicTableComponent implements OnInit {
 
   @Input()
-  config: NgDynamicTableConfig;
+  config: NgxDynamicTableConfig;
   from: number ;
   to: number;
   total: number;
