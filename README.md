@@ -92,12 +92,11 @@ P.S: elements in the `tableHeaders` array must be the same as the keys in the ob
 Finally... add the library tag to the template:
 
 ```html
-app.component.html
+<!-- app.component.html-->
 <ngx-dynamic-table [config]=config></ngx-dynamic-table>
 ```
 
-###### :fire::fire::fire:
-
+And we are done ... 
 ## License
 
 ...
