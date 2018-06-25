@@ -12,7 +12,10 @@ if you use `yarn` you might want to use:
 
 ## Usage
 
-`ngx-dynamic-table` exposes a module called `NgxDynamicTableModule`. Import `NgxDynamicTableModule` in your root module e.g: `AppModule`.
+`ngx-dynamic-table` exposes a module called `NgxDynamicTableModule`. 
+
+### Step 1: 
+Import `NgxDynamicTableModule` in your root module e.g: `AppModule`.
 
 ```typescript
 // app.module.ts
@@ -39,7 +42,9 @@ export class AppModule { }
 
 Once the module is imported, you can start using the libaray seamlessly.
 
-Setup you table config in your desired component file: 
+### Step 2
+
+Setup table config in your component file: 
 
 ```typescript
 //app.component.ts
@@ -75,14 +80,15 @@ export class AppComponent {
 ## Table Config properties
 `tableName`: Name of the table.
 
-`tableOffset`: Nmber of rows to be displayed per page upon pagination.
+`tableOffset`: Number of rows to be displayed per page upon pagination.
 
 `tableHeaders`: row headers of the table.
 
 `tableData`: An array of data to be displayed in the table.
 
-P.S: elements in the `tableHeaders` array must be keys in the object of each elements on the `tableData` array.
+P.S: elements in the `tableHeaders` array must be the same as the keys in the object of each elements on the `tableData` array.
 
+### Step 3: 
 Finally... add the library tag to the template:
 
 ```html
