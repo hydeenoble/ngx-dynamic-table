@@ -96,7 +96,7 @@ app.component.html
 <ngx-dynamic-table [config]=config></ngx-dynamic-table>
 ```
 
-And we are done... :dancer::dancer::dancer:
+And we are done... :fire::fire::fire:
 
 ## License
 
