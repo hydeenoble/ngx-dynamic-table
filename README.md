@@ -89,7 +89,7 @@ export class AppComponent {
 P.S: elements in the `tableHeaders` array must be the same as the keys in the object of each elements on the `tableData` array.
 
 ### Step 3: 
-Finally... add the library tag to the template:
+Finally, add the `ngx-dynamic-table` to your template:
 
 ```html
 <!-- app.component.html-->
