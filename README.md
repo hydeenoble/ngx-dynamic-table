@@ -1,6 +1,6 @@
 # ngx-dynamic-table
 
-simple, easy and performance efficent table generator for Angular.
+Dynamic table generator library for Angular.
 
 ## Installation
 
