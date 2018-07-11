@@ -1,6 +1,6 @@
 {
-  "name": "ng-dynamic-table-sample-app",
-  "version": "0.0.0",
+  "name": "ng-dynamic-table",
+  "version": "0.0.0-alpha",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -9,6 +9,15 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
+  "keywords": [
+    "angular",
+    "angular2",
+    "ng",
+    "ngx",
+    "dynamic-table",
+    "ngx-dynamic-table",
+    "table"
+  ],
   "private": true,
   "dependencies": {
     "@angular/animations": "^6.0.3",

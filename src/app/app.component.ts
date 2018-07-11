@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-// import { NgDynamicTableComponent } from 'ng-dynamic-table';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
